@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+  background: linear-gradient(135deg, #2E3192, #1BFFFF);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card styling */
+.card-glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+/* Form controls */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button styles */
+.btn-custom {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(135deg, #FF512F, #DD2476);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #DD2476, #FF512F);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-back:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Post card styling */
+.post-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.post-card .card-header {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 16px 16px 0 0;
+}
+
+.post-card .card-footer {
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 0 0 16px 16px;
+}
+  

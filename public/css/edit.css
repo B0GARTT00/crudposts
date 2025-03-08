@@ -1,0 +1,102 @@
+.update-post-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #2E3192, #1BFFFF);
+}
+
+.update-post-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px auto;
+}
+
+.update-post-card form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+.update-post-card h3 {
+    grid-column: 1 / -1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.form-floating {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.form-floating input,
+.form-floating textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.form-floating textarea {
+    grid-column: 1 / -1;
+}
+
+.btn-container {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-update,
+.btn-back {
+    padding: 12px 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-update {
+    background: linear-gradient(135deg, #FF512F, #DD2476);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+.btn-update:hover {
+    background: linear-gradient(135deg, #DD2476, #FF512F);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back {
+    background-color: #6c757d;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-back:hover {
+    background-color: #495057;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
