@@ -1,0 +1,12 @@
+.btn-custom, .btn-back {
+    font-size: 0.8rem; /* Adjust the size as needed */
+}
+
+.btn-custom::after, .btn-back::after {
+    font-size: 0.8rem; /* Adjust the size of the arrow */
+}
+
+.svg-icon {
+    width: 1rem; /* Adjust the size as needed */
+    height: 1rem; /* Adjust the size as needed */
+}
